@@ -24,7 +24,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 EncButton2 < EB_BTN > encoder_button(INPUT, 15);
 
-MicroDS18B20<25> sensor;
+MicroDS18B20<13> sensor;
 
 bool skip_preview_screen = false;
 
